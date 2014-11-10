@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <javawriter.version>2.5.0</javawriter.version>
         <junit.version>3.8.1</junit.version>
+        <slf4j.version>1.7.7</slf4j.version>
         <maven.compiler.plugin.version>2.3.2</maven.compiler.plugin.version>
         <java.version>1.7</java.version>
         <sonar.maven.plugin.version>2.3.1</sonar.maven.plugin.version>
@@ -45,6 +46,16 @@
             <groupId>com.squareup</groupId>
             <artifactId>javawriter</artifactId>
             <version>${javawriter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
