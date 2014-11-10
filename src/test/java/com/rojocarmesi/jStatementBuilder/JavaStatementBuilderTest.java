@@ -5,19 +5,18 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple JavaStatementBuilder.
  */
-public class AppTest 
-    extends TestCase
-{
+public class JavaStatementBuilderTest
+        extends TestCase {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public JavaStatementBuilderTest(String testName)
     {
-        super( testName );
+        super(testName);
     }
 
     /**
@@ -25,14 +24,14 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite(JavaStatementBuilderTest.class);
     }
 
     /**
-     * Rigourous Test :-)
+     * Rigorous Test :-)
      */
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue(true);
     }
 }
