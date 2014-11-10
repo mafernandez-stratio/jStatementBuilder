@@ -1,4 +1,4 @@
 jStatementBuilder
 =================
 
-Framework for creating statement builders of your custom query language
+Framework for creating statements builders of your custom query language
